@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-01-10">
-<meta name="description" content="Exploring linguistic diversity across African countries">
+<meta name="description" content="Languages have evolved dynamically across the African continent">
 
 <title>African Language Diversity – TidyTuesday Portfolio</title>
 <style>
@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-1688d9e1630bd0bcb1ec498477fd8fb7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Exploring linguistic diversity across African countries
+    Languages have evolved dynamically across the African continent
   </div>
 </div>
 
@@ -152,12 +155,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="week-of-december-23-2025" class="level3">
 <h3 class="anchored" data-anchor-id="week-of-december-23-2025">Week of December 23, 2025</h3>
 <p>The presence of African languages is evidence of a rich ethnic history, multiple intersecting language families, sociopolitical factors, and globalization, which has endangered many previously spoken languages in favor of those with larger population bases.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="africa_languages_plot.png" class="img-fluid figure-img"></p>
-<figcaption><a href="https://glottolog.org/">Source: Glottolog_5.2</a></figcaption>
-</figure>
-</div>
+<p><a href="africa_languages_plot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="africa_languages_plot.png" class="img-fluid"></a></p>
+<p><strong>Data Source:</strong> <a href="https://glottolog.org/">Glottolog 5.2, Dec 2025</a></p>
 
 
 </section>
@@ -577,6 +576,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
