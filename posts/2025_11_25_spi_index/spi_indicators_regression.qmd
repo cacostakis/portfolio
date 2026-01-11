@@ -1,6 +1,7 @@
 ---
-title: "spi_indicators_regression"
-format: html
+title: "Predictive power of Data Development Indicators"
+date: "2025-01-11"
+categories: [predictive modelling]
 warning: false
 message: false
 ---
@@ -10,6 +11,8 @@ message: false
 ### Week of 11 Nov 2025
 
 The SPI index is a globally tracked set of indicators which score a country's data use, data services, data products, data sources, and data infrastructure. These 5 areas of data development are combined to calculate an overall score, representing the level of data development achieved by the country. The index is calculated on a yearly basis. 
+
+**Data source:** [World Bank Group - Statistical Performance Indicators](https://datacatalog.worldbank.org/search/dataset/0037996/statistical-performance-indicators)
 
 I used the tidytuesdayR package in R to download the dataset and conduct exploratory data analysis. 
 
