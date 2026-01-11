@@ -1,0 +1,16 @@
+---
+title: "African Language Diversity"
+date: "2025-01-10"
+categories: [mapping]
+image: "africa_languages_plot.png"
+description: "Exploring linguistic diversity across African countries"
+---
+
+# African Languages
+
+### Week of December 23, 2025
+
+The presence of African languages is evidence of a rich ethnic history, multiple intersecting language families, sociopolitical factors, and globalization, which has endangered many previously spoken languages in favor of those with larger population bases. 
+
+![[Source: Glootolog_5.2](https://glottolog.org/)](africa_languages_plot.png)
+

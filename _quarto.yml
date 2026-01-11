@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "TidyTuesday Portfolio"
+  description: "Weekly data visualization explorations"
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    
+  page-footer:
+    center: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: false
+
+execute:
+  freeze: auto

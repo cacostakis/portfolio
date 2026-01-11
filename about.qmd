@@ -1,0 +1,12 @@
+---
+title: "About"
+---
+
+I'm [Your Name], and I use #TidyTuesday as a way to practice data visualization and analysis skills.
+
+This portfolio showcases my weekly explorations of diverse datasets, from simple insights to complex analytical deep-dives.
+
+**Tools I use:** R, ggplot2, dplyr, Shiny
+
+**Connect with me:**
+- GitHub: [your-github](https://github.com/cacostakis)

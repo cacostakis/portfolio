@@ -1,0 +1,16 @@
+---
+title: "TidyTuesday Data Explorations"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+Welcome to my weekly data visualization journey with #TidyTuesday datasets.
+
+Each week, I explore a new dataset and create visualizations to uncover interesting patterns and insights.
