@@ -4,6 +4,7 @@ date: "2025-01-11"
 categories: [predictive modelling]
 warning: false
 message: false
+image: spi_prediction_model.png
 ---
 
 # Data Development Indicators
