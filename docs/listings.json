@@ -2,5 +2,12 @@
   {
     "listing": "/index.html",
     "items": []
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025_11_25_spi_index/spi_indicators_regression.html",
+      "/posts/2025_12_23_world_languages/world_languages.html"
+    ]
   }
 ]

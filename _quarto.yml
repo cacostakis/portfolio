@@ -10,14 +10,21 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: posts.qmd
+        text: All Posts
     
   page-footer:
     center: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: darkly
-    css: styles.css
+    theme: 
+      - darkly
+      - custom.scss
+    css: []
+    fontfamily: Inter
+    fontsize: 1rem
+    lineheight: 1.6
     toc: false
 
 execute:

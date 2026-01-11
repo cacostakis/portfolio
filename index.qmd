@@ -2,6 +2,8 @@
 title: "TidyTuesday Data Explorations"
 listing:
   contents: posts
+  max-items: 3
+  max-description-length: 300
   sort: "date desc"
   type: default
   categories: true
@@ -11,14 +13,16 @@ page-layout: full
 title-block-banner: true
 ---
 
-Welcome to my weekly data visualization journey with #TidyTuesdayR
+# Welcome to my weekly data visualization journey with #TidyTuesdayR
 
-I'm a former primary and middle school teacher. Early grade reading and teaching English Language Learners was my most common focus. I've spent time in US public and tribal schools, and taught in a rural West African school as a Peace Corps volunteer.
+I'm a **former primary and middle school teacher**. Early grade reading and teaching English Language Learners was my most common focus. I've spent time in US public and tribal schools, and taught in a rural West African school as a Peace Corps volunteer.
 
-I now work in education evaluation and research. My core job is in working with implementing organizations to better use data and create more effective education programs around the world. That means that I often don't get to practice my hard analysis skills, since I'm busy doing other things, like capacity-building with program staff, research design, instrument development, data collection quality controls, and writing up or disseminating findings. (Look up my cool org if you interested in more.)
+I now work in **education evaluation and research**. My core job is in working with implementing organizations to better use data and create more effective education programs around the world. That means that I often don't get to practice my hard analysis skills, since I'm busy doing other things, like capacity-building with program staff, research design, instrument development, data collection quality controls, and writing up or disseminating findings. ([Look up my cool org if you interested in more.](https://poverty-action.org/ "Innovations for Poverty Action"))
 
-![Innovations for Poverty Action](docs/IPA_logo.png){width="300"}
+![](docs/IPA_logo.png){width="200"}
 
 I've started this page to help build my skills in getting my analysis into sharable format, and provide self-motivation to keep up with the weekly TidyTuesdayR community.
 
 Feel free to browse through my weekly contributions.
+
+# TidyTuesday Contributions
