@@ -127,7 +127,8 @@ ggplot(data = spi_model_summary,
        subtitle = "The model predict Data Development score by using the Data infrastructure \nand Services indicators only \nPositive residuals indicates that real-world scores were higher than the predicted model.",
        x = "Average Residual between Real-world performance and model") +
   theme(axis.title.y = element_blank(),
-        axis.text.y = element_text(size = 3)) +
+        axis.text.y = element_text(size = 3),
+        plot.margin = margin(t = 40, r = 10, b = 10, l = 10)) +
   theme_minimal()
 
 ```
@@ -206,7 +207,8 @@ ggplot(data = spi_model_prod_sourc_low,
        subtitle = "The model predicts Data Development score by using the Data Products and \nSources indicators only, and was trained on low income country data only. \nPositive residuals indicates that real-world scores were higher than the predicted model.",
        x = "Average Residual between Real-world performance and model") +
   theme(axis.title.y = element_blank(),
-        axis.text.y = element_text(size = 3)) +
+        axis.text.y = element_text(size = 3),
+        plot.margin = margin(t = 40, r = 10, b = 10, l = 10)) +
   theme_minimal()
 
 ```
