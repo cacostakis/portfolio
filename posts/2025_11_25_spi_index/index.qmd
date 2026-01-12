@@ -113,7 +113,7 @@ spi_model_summary <-
 
 The plot below shows countries relative to their predicted Data Development score. It is noticeable that the Upper Middle income countries are largely outperforming their model prediction, whereas high and low income countries are under performing their prediction. This is most noticeable among low income countries. 
 
-``` {r, plotting, fig.height = 10}
+``` {r, plotting, fig.height = 10, fig.width = 12}
 spi_resid_sd <- spi_model_summary$mean_resid %>% sd # Calculate 1 standard deviation of residuals
   
 ggplot(data = spi_model_summary,
@@ -174,7 +174,7 @@ glance(lm_low_income_interaction) %>% mutate(predictor = "Data Products:Data Sou
 
 Based on other checks of the Data Use vs Data Sources models (such as running a test of internal consistency using Cronbach's alpha), I decided that Data Sources seems to be the better model. I present the same plot as above, but applying the 'low income' model to all countries. While this improves the fit for low income countries, it is a very poor prediction for all other income groups, predicting far below what those groups scored in the real-world. 
 
-``` {r, low_income_model_plot, fig.height = 10}
+``` {r, low_income_model_plot, fig.height = 10, fig.width = 12}
 
 spi_model_prod_sourc_low <-
   spi_indicators %>%
