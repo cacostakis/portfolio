@@ -1,7 +1,7 @@
 ---
 title: "Predictive power of Data Development Indicators"
 date: "2025-01-11"
-categories: [predictive modelling]
+categories: ["predictive modelling"]
 warning: false
 message: false
 image: "spi_prediction_model.png"
