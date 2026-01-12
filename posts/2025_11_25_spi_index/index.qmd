@@ -123,8 +123,8 @@ ggplot(data = spi_model_summary,
   geom_vline(xintercept = 0-spi_resid_sd, color = "salmon", size = 0.8) + 
   geom_point() +
   facet_wrap(~income, scales ="free_y") +
-  labs(title = "Average residual between the observed Data Development score and the model's predicted score",
-       subtitle = "The model predict Data Development score by using the Data infrastructure and Services indicators only \nPositive residuals indicates that real-world scores were higher than the predicted model.",
+  labs(title = "Average residual between the observed Data Development score \nand the model's predicted score",
+       subtitle = "The model predict Data Development score by using the Data infrastructure \nand Services indicators only \nPositive residuals indicates that real-world scores were higher than the predicted model.",
        x = "Average Residual between Real-world performance and model") +
   theme(axis.title.y = element_blank(),
         axis.text.y = element_text(size = 3)) +
@@ -202,8 +202,8 @@ ggplot(data = spi_model_prod_sourc_low,
   geom_vline(xintercept = 0-spi_resid_sd_prod_sourc_low, color = "salmon", size = 0.8) + 
   geom_point() +
   facet_wrap(~income, scales ="free_y")+
-  labs(title = "Low income variation: Average residual between the observed Data Development score and the model's predicted score",
-       subtitle = "The model predicts Data Development score by using the Data Products and Sources indicators only, and was trained on low income country data only. \nPositive residuals indicates that real-world scores were higher than the predicted model.",
+  labs(title = "Low income variation: Average residual between the observed Data \nDevelopment score and the model's predicted score",
+       subtitle = "The model predicts Data Development score by using the Data Products and \nSources indicators only, and was trained on low income country data only. \nPositive residuals indicates that real-world scores were higher than the predicted model.",
        x = "Average Residual between Real-world performance and model") +
   theme(axis.title.y = element_blank(),
         axis.text.y = element_text(size = 3)) +
