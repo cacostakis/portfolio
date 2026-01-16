@@ -1,9 +1,7 @@
 ---
-title: "Deaths in Gaza Since October 7, 2023"
-date: "2025-01-11"
+title: "Deaths in Gaza Since 7 October, 2023"
+date: "2025-01-15"
 categories: ["plotting"]
-warning: false
-message: false
 image: "age_plot.png"
 lightbox: TRUE
 ---
@@ -20,5 +18,5 @@ As someone who only hears about Palestine from afar, I wanted to know more about
 
 ![](age_plot.png)
 
-**Data source:** [Tech for Palestine Indicators](https://data.techforpalestine.org/)
+**Data source:** [Tech for Palestine](https://data.techforpalestine.org/)
 
