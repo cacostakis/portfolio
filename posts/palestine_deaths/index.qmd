@@ -8,7 +8,7 @@ lightbox: TRUE
 
 ### Not TidyTuesday data
 
-As someone who only hears about Palestine from afar, I wanted to know more about the size of impact on humans. I will continue to add more visuals. 
+As someone who only hears about Palestine from afar, I wanted to know more about the size of impact on humans. I will continue to add more visuals as I find more. 
 
 ![](women_children_plot.png)
 
