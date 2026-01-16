@@ -1,0 +1,24 @@
+---
+title: "Deaths in Gaza Since October 7, 2023"
+date: "2025-01-11"
+categories: ["plotting"]
+warning: false
+message: false
+image: "age_plot.png"
+lightbox: TRUE
+---
+
+# Gaza Deaths since 7 October, 2023
+
+### Not TidyTuesday data
+
+As someone who only hears about Palestine from afar, I wanted to know more about the size of impact on humans. I will continue to add more visuals. 
+
+![](women_children_plot.png)
+
+![](service_plot.png)
+
+![](age_plot.png)
+
+**Data source:** [Tech for Palestine Indicators](https://data.techforpalestine.org/)
+
