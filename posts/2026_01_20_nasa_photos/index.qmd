@@ -1,0 +1,23 @@
+---
+title: "NASA 'Photos of the Day' Description Text"
+date: "2026-01-20"
+categories: ["network mapping"]
+warning: false
+message: false
+image: "nasa_photos_network_map.png"
+description: "Mapping words from NASA 'Photo of the day' descriptions creates a constellation of cosmically-linked words."
+lightbox: TRUE
+---
+
+### Week of 20 January 2026
+
+Everyday, NASA publishes a 'photo of the day' depicting a range of astral phenomena. Those submitting photos write a descriptive, and often lengthy, paragraph of text detailing the contents of the photo. Word choice tends to be ethereal, cosmic, and illustrious in style. 
+
+The image below captures all photo descriptions between 2007 and 2025, and presents some of their most common individual words, represented by each yellow 'star' dot. The blue edges show the strength of the correlation between those two words they connect, which was calculated by determining whether the two words occured in the same description.
+
+The resulting map demonstrates a clear clustering of certain words, like constellations in the night sky, which have elevated relevance for 1 of 3 cosmic objects: Earth's solar system, stars, and the Milky Way.
+
+![](nasa_photos_network_map.png)
+
+**Data source:** [Astronomer Picture of the Day](https://apod.nasa.gov/apod/ap250708.html)
+
