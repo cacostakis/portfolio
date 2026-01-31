@@ -1,20 +1,18 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/2026_01_20_nasa_photos/index.html",
-      "/posts/palestine_deaths/index.html",
-      "/posts/2025_11_25_spi_index/index.html",
-      "/posts/2025_11_25_spi_index/index.html",
-      "/posts/2025_12_23_world_languages/index.html"
-    ]
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/2026_01_20_nasa_photos/index.html",
       "/posts/palestine_deaths/index.html",
       "/posts/2025_11_25_spi_index/index.html",
+      "/posts/2025_12_23_world_languages/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2026_01_20_nasa_photos/index.html",
+      "/posts/palestine_deaths/index.html",
       "/posts/2025_11_25_spi_index/index.html",
       "/posts/2025_12_23_world_languages/index.html"
     ]
